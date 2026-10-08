@@ -54,3 +54,6 @@ class AdjesService:
         self.adjes.clear()
         self.last_adjes.clear()
         self._save_counter()
+
+    def get_adjes(self, user_id):
+        return self.adjes.get(user_id, 0)
