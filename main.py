@@ -9,7 +9,7 @@ load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ALLOWED_CHANNEL_ID = 1557733627956166819
-DATA_FILE = "adje_count.json"
+
 
 def load_counter() -> int:
     """Loads count from JSON file, or defaults to 0."""
